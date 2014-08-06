@@ -18483,6 +18483,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
+<text x="165.1" y="7.62" size="3.81" layer="91">M Hord</text>
+<text x="237.744" y="6.35" size="3.81" layer="91">01</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
