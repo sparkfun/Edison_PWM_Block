@@ -19041,7 +19041,11 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <text x="237.744" y="6.35" size="3.81" layer="91">v10</text>
 <text x="129.54" y="101.6" size="1.27" layer="91">I2C Address is 0b1xxxxxx.
 Default is 0x40; to set
-a bit, close that bit's jumper.</text>
+a bit, close that bit's jumper.
+
+All PCA9685 chips will
+respond to 0x70 as an
+"all-call" address</text>
 <text x="119.38" y="93.98" size="2.54" layer="91" align="center-right">A0</text>
 <text x="119.38" y="86.36" size="2.54" layer="91" align="center-right">A1</text>
 <text x="119.38" y="78.74" size="2.54" layer="91" align="center-right">A2</text>

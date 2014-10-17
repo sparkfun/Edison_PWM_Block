@@ -197,6 +197,7 @@
 <text x="31.75" y="-2.54" size="1.778" layer="51">NOTE: Units are in Inches</text>
 <text x="29.972" y="35.814" size="1.27" layer="22" font="vector" ratio="15" rot="SMR270">PWM Block</text>
 <text x="22.606" y="32.131" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center">VSYS-&gt;VIN</text>
+<wire x1="14.986" y1="12.7" x2="14.986" y2="12.319" width="0.1524" layer="41"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -3526,9 +3527,9 @@ design rules under a new name.</description>
 <wire x1="16.51" y1="49.276" x2="19.05" y2="49.276" width="0.8128" layer="1"/>
 <wire x1="19.05" y1="49.276" x2="21.59" y2="49.276" width="0.8128" layer="1"/>
 <wire x1="21.59" y1="49.276" x2="24.13" y2="49.276" width="0.8128" layer="1"/>
-<wire x1="6.35" y1="37.885" x2="4.025" y2="37.885" width="0.254" layer="1"/>
-<wire x1="4.025" y1="37.885" x2="3.81" y2="38.1" width="0.254" layer="1"/>
-<wire x1="3.81" y1="38.1" x2="3.81" y2="49.276" width="0.254" layer="1"/>
+<wire x1="6.35" y1="37.885" x2="4.025" y2="37.885" width="0.5588" layer="1"/>
+<wire x1="4.025" y1="37.885" x2="3.81" y2="38.1" width="0.5588" layer="1"/>
+<wire x1="3.81" y1="38.1" x2="3.81" y2="49.276" width="0.5588" layer="1"/>
 <wire x1="8.255" y1="37.885" x2="8.255" y2="36.449" width="0.254" layer="1"/>
 <via x="8.255" y="36.449" extent="1-16" drill="0.508"/>
 <wire x1="10.16" y1="37.885" x2="10.16" y2="36.449" width="0.254" layer="1"/>
@@ -3543,20 +3544,20 @@ design rules under a new name.</description>
 <via x="17.78" y="36.449" extent="1-16" drill="0.508"/>
 <wire x1="19.685" y1="37.885" x2="19.685" y2="36.449" width="0.254" layer="1"/>
 <via x="19.685" y="36.449" extent="1-16" drill="0.508"/>
-<wire x1="19.685" y1="36.449" x2="17.78" y2="36.449" width="0.254" layer="16"/>
-<wire x1="15.875" y1="36.449" x2="13.97" y2="36.449" width="0.254" layer="16"/>
-<wire x1="13.97" y1="36.449" x2="12.065" y2="36.449" width="0.254" layer="16"/>
-<wire x1="12.065" y1="36.449" x2="10.16" y2="36.449" width="0.254" layer="16"/>
-<wire x1="10.16" y1="36.449" x2="8.255" y2="36.449" width="0.254" layer="16"/>
-<wire x1="6.35" y1="37.885" x2="6.35" y2="36.449" width="0.254" layer="1"/>
+<wire x1="19.685" y1="36.449" x2="17.78" y2="36.449" width="0.5588" layer="16"/>
+<wire x1="15.875" y1="36.449" x2="13.97" y2="36.449" width="0.5588" layer="16"/>
+<wire x1="13.97" y1="36.449" x2="12.065" y2="36.449" width="0.5588" layer="16"/>
+<wire x1="12.065" y1="36.449" x2="10.16" y2="36.449" width="0.5588" layer="16"/>
+<wire x1="10.16" y1="36.449" x2="8.255" y2="36.449" width="0.5588" layer="16"/>
+<wire x1="6.35" y1="37.885" x2="6.35" y2="36.449" width="0.5588" layer="1"/>
 <via x="6.35" y="36.449" extent="1-16" drill="0.508"/>
-<wire x1="6.35" y1="36.449" x2="8.255" y2="36.449" width="0.254" layer="16"/>
-<wire x1="15.875" y1="36.449" x2="17.78" y2="36.449" width="0.254" layer="16"/>
+<wire x1="6.35" y1="36.449" x2="8.255" y2="36.449" width="0.5588" layer="16"/>
+<wire x1="15.875" y1="36.449" x2="17.78" y2="36.449" width="0.5588" layer="16"/>
 <contactref element="SJ7" pad="2"/>
-<wire x1="20.32" y1="32.454" x2="20.32" y2="33.782" width="0.2032" layer="1"/>
+<wire x1="20.32" y1="32.454" x2="20.32" y2="33.782" width="0.5588" layer="1"/>
 <via x="20.32" y="33.782" extent="1-16" drill="0.508"/>
-<wire x1="20.32" y1="33.782" x2="20.32" y2="35.814" width="0.2032" layer="16"/>
-<wire x1="20.32" y1="35.814" x2="19.685" y2="36.449" width="0.2032" layer="16"/>
+<wire x1="20.32" y1="33.782" x2="20.32" y2="35.814" width="0.5588" layer="16"/>
+<wire x1="20.32" y1="35.814" x2="19.685" y2="36.449" width="0.5588" layer="16"/>
 </signal>
 <signal name="A4">
 <contactref element="U1" pad="5"/>
@@ -3692,7 +3693,7 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="D1" pad="C"/>
 <contactref element="SJ7" pad="1"/>
-<wire x1="20.32" y1="28.82" x2="20.32" y2="31.554" width="0.2032" layer="1"/>
+<wire x1="20.32" y1="28.82" x2="20.32" y2="31.554" width="0.5588" layer="1"/>
 </signal>
 </signals>
 <errors>
